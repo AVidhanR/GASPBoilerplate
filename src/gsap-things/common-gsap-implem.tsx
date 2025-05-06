@@ -1,7 +1,7 @@
 import "./App.css";
 import { gsap } from "gsap";
 
-function App() {
+export default function CommonGSAPImplementation() {
   gsap.to(".box", {
     duration: 2,
     rotation: 360,
@@ -16,5 +16,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
