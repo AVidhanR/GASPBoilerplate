@@ -1,5 +1,6 @@
-import "./App.css";
+import "../App.css";
 import { gsap } from "gsap";
+import GSAPHookImplementation from "./gsap-hook-implem";
 
 export default function CommonGSAPImplementation() {
   gsap.to(".box", {
@@ -13,6 +14,8 @@ export default function CommonGSAPImplementation() {
       <h1>gsap animation - using npm.</h1>
       <div className="box gradient-green"></div>
       <h2>refresh to see the animation maybe... 👀</h2>
+      <br />
+      <GSAPHookImplementation />
     </div>
   );
 }
